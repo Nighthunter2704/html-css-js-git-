@@ -1,0 +1,64 @@
+Comands for git:-
+
+1. clone: cloning a repository to the local machine
+      git clone <-link to the repo->
+
+2. status: Dispalay the state of the code
+      git status
+
+3.add: adds new or changed file in your working directroy to the Git Staging area.
+      git add<-file name->
+
+4.commit: it is the record of changed
+      git commit-m "some message"
+
+5.push: upload local repo content to remote repo
+      git push origin main 
+
+6. init: used to create new git repo
+      git init
+      git remote add origin <-link->
+      git remote -v (to verify remote)
+      git branch    (to check branch)
+      git branch -M main (to rename branch)
+      git push origin main
+
+-----------Git branches-----------
+Brach Commands:-
+
+1. git branch (to check branch)
+2. git branch-M (to rename branch)
+3. git checkout <-branch name->    (to navigate)
+4. git checkout -b <-new branch name-> (To create new branch)
+5. git brach -d <-brach name-> (to delete branch)
+
+Mergin Codes:-
+1. way 1:-
+      1. git diff <-brach name->    (to compare commits, branches, files and more)
+      2. git merge <-brach name->   (to merge to branches)
+
+2. Way 2:-
+      Create a PR
+
+To pull chnges of Merge from git hub to local account
+Pull command:-
+1. git pull origin main 
+      used to fetch and download content from a remote repo and immediately update the local repo to match that content
+
+Undoning Chnages:-
+case 1: stagesd Chnages
+      git reset <-file name->
+      git reset
+
+case 2: Commited Chnages(for one commit)
+      git reset HEAD-1
+
+case 3: commited Changes (for many commits)
+      git reset <-commit hash->
+      git reset --hard <-commit hash->
+
+
+
+
+ FORK :  A fork is a new repository that shares code and visibility setting with the original "upstream" repository.
+            Fork is a rough copy.
