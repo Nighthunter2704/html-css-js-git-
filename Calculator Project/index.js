@@ -1,37 +1,35 @@
-let a = "";
-let b = 0;
-let c;
+
 document.querySelector('.Number1').addEventListener('click', function () {
-    c = Number(document.querySelector('#input').value += 1)
+     Number(document.querySelector('#input').value += 1)
 })
 
 document.querySelector('.Number2').addEventListener('click', function () {
 
-    c = Number(document.querySelector('#input').value += 2)
+  Number(document.querySelector('#input').value += 2)
 
 
 
 })
 document.querySelector('.Number3').addEventListener('click', function () {
 
-    c = Number(document.querySelector('#input').value += 3)
+     Number(document.querySelector('#input').value += 3)
 
 
 
 })
 document.querySelector('.Number4').addEventListener('click', function () {
 
-    c = Number(document.querySelector('#input').value += 4)
+     Number(document.querySelector('#input').value += 4)
 
 
 
 })
 document.querySelector('.Number5').addEventListener('click', function () {
 
-    c = Number(document.querySelector('#input').value += 5)
+     Number(document.querySelector('#input').value += 5)
 
 })
-c = document.querySelector('.Number6').addEventListener('click', function () {
+document.querySelector('.Number6').addEventListener('click', function () {
 
     Number(document.querySelector('#input').value += 6)
 
@@ -66,67 +64,58 @@ document.querySelector('.Number0').addEventListener('click', function () {
 
 
 })
-document.querySelector('.dot').addEventListener('click', function () {
-
-    Number(document.querySelector('#input').value = `.`)
 
 
 
-})
-function add() {
-    a = Number(document.getElementById("input").value);
-    if(a!==0 && b===0){
-    b = a; 
-}
-else{
-    b +=a;
-}
-    document.getElementById("ans").innerHTML = `Ans= ${b}`;
-    console.log(b)
-    document.getElementById("input").value = undefined;
 
-}
-function multi() {
-    a = Number(document.getElementById("input").value);
-    if(a!==0 && b===0){
-        b = a; 
-    }
-    else{
-        b *=a;
-    }
-    document.getElementById("ans").innerHTML = `Ans= ${b}`;
-    console.log(b)
-    document.getElementById("input").value = undefined;
+// function add() {
+// //     let c="+"
+// //     console.log(c)
+// // document.getElementById(input).innerHTML=c
+// }
+// function multi() {
+//     a = Number(document.getElementById("input").value);
+//     if(a!==0 && b===0){
+//         b = a; 
+//     }
+//     else{
+//         b *=a;
+//     }
+//     document.getElementById("ans").innerHTML = `Ans= ${b}`;
+//     console.log(b)
+//     document.getElementById("input").value = undefined;
 
-}
-function div() {
-    a = Number(document.getElementById("input").value);
-    if(a!==0 && b===0){
-        b = a; 
-    }
-    else{
-        b /=a;
-    }
-    document.getElementById("ans").innerHTML = `Ans= ${b}`;
-    console.log(b)
-    document.getElementById("input").value = undefined;
+// }
+// function div() {
+//     a = Number(document.getElementById("input").value);
+//     if(a!==0 && b===0){
+//         b = a; 
+//     }
+//     else{
+//         b /=a;
+//     }
+//     document.getElementById("ans").innerHTML = `Ans= ${b}`;
+//     console.log(b)
+//     document.getElementById("input").value = undefined;
 
-}
-function sub() {
-    a = Number(document.getElementById("input").value);
-    if(a!==0 && b===0){
-        b = a; 
-    }
-    else{
-        b /=a;
-    }
-    document.getElementById("ans").innerHTML = `Ans= ${b}`;
-    console.log(b)
-    document.getElementById("input").value = undefined;
+// }
+// function sub() {
+//     if(a===0 && b===0){
+//         a = Number(document.getElementById("input").value);
+//         b = a; 
+//     }
+//     else{
+//         c=a-b
+//     }
+//     document.getElementById("ans").innerHTML = `Ans= ${c}`;
+//     console.log(b)
+//     document.getElementById("input").value = 0;
 
-}
-function reset(){
-    b=0;
-    document.getElementById("ans").innerHTML = `Ans= ${b}`;
+// }
+// function reset(){
+//     b=0;
+//     document.getElementById("ans").innerHTML = `Ans= ${b}`;
+//     document.getElementById("input").value = 0;
+//     flag=0
 
-}
+// }

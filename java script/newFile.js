@@ -72,8 +72,13 @@ function userName(){
 }
 
 let arr=[1,"Devesh", "Hmachal", "kandaghat"];
-function printArr(){
-for(let element of arr){
+function printArr(a){
+for(let element of a){
     console.log(element);
 }
+}
+function add(){
+let me="2+3+4+5+6";
+let me2=Number(me);
+console.log(me2);
 }

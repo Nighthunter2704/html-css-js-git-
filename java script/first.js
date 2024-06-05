@@ -68,3 +68,15 @@ function ForIn(){
     str3=str2.concat(str1);
     let ser="Night Mair";
     let strReplaced=ser.replace('Mair','Hunter');
+
+    let arr2=[3,5,3,23,43];
+    function AverageArr(a){
+        let sum=0;
+        for(let i=0; i<a.length;i++){
+            sum+=a[i];
+
+        }
+        console.log(sum)
+        ave=sum/(a.length);
+        console.log("average = ",ave)
+    }
